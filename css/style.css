@@ -1,0 +1,297 @@
+@import "null.css";
+
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700,900,&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Philosopher:regular,italic,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Marck+Script:regular&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comforter&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Lobster:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Stalinist+One:regular&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Supermercado+One:regular&display=swap");
+
+body {
+	font-family: 'Lato';
+	font-weight: normal;
+	font-size: 20px;
+	background-color:  #57584e85;
+}
+.header {
+	text-align: center;
+}
+h1 {
+	color: red;
+	font-size: 65px;
+	margin: 30px 0px 40px 0px;
+	font-family: 'Philosopher';
+	font-weight: 900;
+	/* text-shadow: 10px 25px 5px rgb(11 57 71), -10px -25px 10px rgb(11 57 71); */
+	border: 5px solid #000;
+	text-align: center;
+	background-color: #141445;
+	border-radius: 50px 50px 50px 50px;
+	box-shadow: 3px 3px 15px red;
+}
+.article img {
+	max-width: 1000px;
+	border-radius: 50px 50px 50px 50px;
+	text-align: center;
+	box-shadow: 3px 3px 15px #171414;
+	margin-bottom: 10px;
+}
+.article p {
+	color: #05050385;
+	font-size: 22px;
+	font-family: 'Comforter';
+	margin-bottom: 30px;
+}
+.article__wrap {
+	color: black;
+	font-size: 25px;
+	text-align: center;
+	border: 10px solid #b8f00c;
+	margin: 0px 40px 30px 40px;
+	font-family: 'Lobster';
+	font-weight: 400;
+	border-radius: 50px 50px 50px 50px;
+}
+.wp-caption {
+	text-align: center;
+	font-family: 'Philosopher';
+	font-weight: 900;
+}
+.wp-caption .one {
+	color: black;
+	font-size: 25px;
+	border: 10px solid #7621b6;
+	margin: 0px 40px 30px 40px;
+	border-bottom: none;
+}
+.wp-caption .two {
+	color: black;
+	font-size: 25px;
+	border: 10px dotted #0099bc;
+	margin: 0px 40px 30px 40px;
+}
+.wp-caption .three {
+	color: black;
+	font-size: 25px;
+	border: 10px dashed #f40d77;
+	margin: 0px 40px 30px 40px;
+}
+.wp-caption .four {
+	color: black;
+	font-size: 25px;
+	border: 10px double #08f225;
+	margin: 0px 40px 130px 40px;
+}
+ul {
+	text-align: center;
+	font-size: 30px;
+	font-family: 'Lobster';
+	font-weight: 900;
+	max-width: 500px;
+	margin-left: auto;
+}
+ul .line {
+	border: 12px solid rgb(187, 22, 187);
+	border-radius: 40px 0 0 0;
+	margin-bottom: 10px;
+}
+ul .line-two {
+	border: 12px solid rgb(187, 22, 187);
+	border-radius: 0 0 0 40px;
+	margin-bottom: 10px;
+}
+ul .line-three {
+	border: 12px solid rgb(187, 22, 187);
+	border-radius: 0 40px 0 0;
+	margin-bottom: 120px;
+}
+.wrap-caption {
+	text-align: center;
+	font-family: 'Philosopher';
+	font-weight: 900;
+}
+.wrap-caption img {
+	max-width: 700px;
+	border-radius: 0% 100% 16% 84% / 60% 24% 76% 40%;
+	text-align: center;
+	box-shadow: 15px 20px 40px #171414, -15px -20px 40px #171414;
+	margin-bottom: 150px;
+}
+.wrap-caption .one {
+	margin-bottom: 50px;
+	border: 10px solid #000;
+	box-shadow: -10px -15px 10px rgb(0 255 13);
+	border-radius: 50px;
+}
+.wrap-caption .two {
+	margin-bottom: 50px;
+	border: 10px solid #000;
+	box-shadow: 20px 15px 10px rgb(0 255 13), -15px -15px 10px rgb(75 0 255), -12px 26px 13px rgb(255 0 71);
+	border-radius: 50px;
+}
+.wrap-caption .three {
+	margin-bottom: 50px;
+	border: 10px solid #000;
+	box-shadow: 20px 15px 3px rgb(228 255 0);
+	border-radius: 50px;
+}
+.wrap-caption .four {
+	margin-bottom: 50px;
+	border: 10px solid #000;
+	box-shadow: -2px 0px 40px rgb(255 0 247);
+	border-radius: 50px;
+}
+h2 {
+	font-family: 'Philosopher';
+	font-weight: 900;
+	font-size: 45px;
+	text-align: center;
+	margin: 0px 300px 30px 300px;
+	box-shadow: inset 0px 0px 10px 0px #000, 0 0 10px 0 red;
+	border-radius: 10px;
+}
+.wr-article {
+	text-align: center; 
+}
+.wr-article p {
+	font-size: 35px;
+	font-family: 'Comforter';
+	font-weight: 900;
+	margin-bottom: 60px;
+	background-color: #b8f00c;
+}
+.wr-article img {
+	border-radius: 50%;
+	box-shadow: 15px 20px 40px #b20e0e, -15px -20px 40px #2446ea;
+	margin-bottom: 100px;
+}
+.title {
+	text-align: right;
+	font-size: 30px;
+	font-family: 'Stalinist One';
+	color: #3d3d3d;
+}
+.title .one {
+	margin-bottom: 30px;
+	background-color: #2446ea;
+	margin: 0px 0px 0px 0px;
+}
+.title .two {
+	text-align: left;
+	margin-bottom: 30px;
+	background-color: red;
+}
+.title .three {
+	margin-bottom: 60px;
+	background-color: #fff;
+}
+.title img {
+	border-radius: 30%;
+	box-shadow: -5px 30px 90px #110909, 2px 0px 10px #040509;
+	margin-bottom: 40px;
+	border: 10px dotted #0b0972;
+}
+.inline-block {
+	font-family: 'SupermercadoOne', cursive;
+	font-weight: 900;
+	font-size: 30px;
+
+}
+.inline-block .one {
+	color: rgb(15, 87, 83);
+	background-color: rgb(88 113 236);
+	box-shadow: inset 5px 5px 5px rgb(63 62 62);
+	margin-bottom: 30px;
+}
+.inline-block .two {
+	color: rgb(15, 87, 83);
+	background-color: rgb(236 88 108);
+	box-shadow: inset 5px 5px 5px rgb(63 62 62);
+	margin-bottom: 30px;
+}
+.inline-block .three {
+	color: rgb(15, 87, 83);
+	background-color: rgb(97 236 88);
+	box-shadow: inset 5px 5px 5px rgb(63 62 62), 8px 13px 15px rgb(65 23 234);
+	margin-bottom: 30px;
+}
+.inline-block .four {
+	color: rgb(15, 87, 83);
+	background-color: rgb(227 88 236);
+	box-shadow: inset 5px 5px 5px rgb(63 62 62);
+	margin-bottom: 30px;
+	border: 5px solid #000;
+	border-radius: 50%;
+	padding: 50px 100px 50px 100px;
+}
+.inline-block .five {
+	color: rgb(15, 87, 83);
+	background-color: #03a9f4;
+	box-shadow: inset -10px 0px 40px rgb(63 62 62);
+	margin-bottom: 60px;
+}
+.image {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.image img {
+	border-radius: 40%;
+	border: 10px double #08f225;
+}
+.title-block .one {
+	font-family: cursive;
+	font-weight: 900;
+	text-align: center;
+	color: rgb(55 208 199);
+	font-size: 30px;
+	text-decoration: underline dotted;
+	background-color: rgb(9 9 8);
+	border-radius: 2px;
+	box-shadow: inset 5px 5px 5px rgb(242 241 241);
+	margin-bottom: 50px;
+}
+.title-block {
+	font-size: 35px;
+	margin-bottom: 80px;
+}
+.title-block .two {
+	font-family: 'Lobster';
+	font-weight: 900;
+	margin: 0px 0px 60px 150px;
+	overflow: auto;
+	max-width: 480px;
+	max-height: 350px;
+}
+.title-block .three {
+	font-family: 'Stalinist One';
+	font-weight: 900;
+	margin: 0px 250px 0px 250px;
+}
+
+
+.image-two {
+	text-align: right;
+	margin: 0px 150px 0px 0px;
+}
+.image-two img {
+	border-radius: 50%;
+	box-shadow: 15px 20px 40px #b20e0e, -15px -20px 40px #0b0b0b;
+	margin-bottom: 60px;
+}
+.top {
+	color: red;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Stalinist One';
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+.blank {
+	color: black;
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Marck Script';
+	font-weight: 900;
+	margin-bottom: 50px;
+} 
